@@ -1,0 +1,1 @@
+python eval_all_checkpoints.py --dataset="activitynet_captions" --sample_len=128 --max_sentence_len=30 --selfatt_restricted=True --restricted_neighbors=60 --num_anchors=100 --eval_batch_size=200 --nms_threshold=0.55 --feature_to_second=2 --init_from="" --train_id=3 --gpu_id=1

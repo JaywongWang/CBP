@@ -1,0 +1,1 @@
+python test.py --dataset="charades" --predict_boundary=True --anchor_mask=True --sample_len=50 --max_sentence_len=20 --adaptive_sent_states=True --bidirectional_lstm_sentence=True --num_anchors=20 --eval_batch_size=3720 --eval_batch_num=100000 --nms_threshold=0.55 --feature_to_second=1 --init_from="checkpoints/charades/out_model.ckpt" --train_id=0 --gpu_id=3

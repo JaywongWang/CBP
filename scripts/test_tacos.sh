@@ -1,0 +1,1 @@
+python test.py --dataset="tacos" --predict_boundary=True --max_sentence_len=10 --selfatt_restricted=True --restricted_neighbors=10 --num_anchors=32 --eval_batch_size=1000 --eval_batch_num=100000 --nms_threshold=0.3 --feature_to_second=1 --init_from="checkpoints/4/epoch94_rec18.54_18_lr0.000010.ckpt" --train_id=4 --gpu_id=6
