@@ -226,7 +226,7 @@ def train(options):
                 print('Evaluating model performance ...')
                 recall_at_k = evaluation_metric(options, data_provision, sess,
                                                 i_inputs, i_outputs, interactor_inputs,
-                                                interactor_outputs, proposal_inputs, proposal_outputs, split='test')
+                                                interactor_outputs, proposal_inputs, proposal_outputs)
 
                 jeval_results = OrderedDict()
                 jeval_results['lr'] = lr
