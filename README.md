@@ -3,6 +3,15 @@ Official Tensorflow Implementation of the AAAI-2020 paper [Temporally Grounding 
 
 ![alt text](method.png)
 
+### Citation
+
+    @inproceedings{wang2020temporally,
+      title={Temporally Grounding Language Queries in Videos by Contextual Boundary-aware Prediction},
+      author={Wang, Jingwen and Jiang, Wenhao and Ma, Lin},
+      booktitle={AAAI},
+      year={2020}
+    }
+
 ### Requirements
 python 2.7
 ``` bash
