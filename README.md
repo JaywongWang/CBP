@@ -69,11 +69,11 @@ Use corresponding scripts for testing or evaluating for other datasets.
 
 The predicted results are also provided in `./results/{DATASET}/` .
 
-| CBP              | R@1,IoU=0.7 | R@1,IoU=0.5 | R@5,IoU=0.7 | R@5,IoU=0.5 |   mIoU   |
-| :--------------- | ----------: | ----------: | ----------: | ----------: |        : |
-| TACoS            |   18.54     |    23.19    |    24.88    |     35.83   |   20.46  |
-| Charades         |   19.11     |    36.56    |    50.24    |     70.99   |   35.85  |
-| ActivityNet      |   18.74     |    36.83    |    49.84    |     67.78   |   37.98  |
+| CBP              | R@1,IoU=0.7 | R@1,IoU=0.5 | R@5,IoU=0.7 | R@5,IoU=0.5 |    mIoU     |
+| :--------------- | ----------: | ----------: | ----------: | ----------: | ----------: |
+| TACoS            |   18.54     |    23.19    |    24.88    |     35.83   |    20.46    |
+| Charades         |   19.11     |    36.56    |    50.24    |     70.99   |    35.85    |
+| ActivityNet      |   18.74     |    36.83    |    49.84    |     67.78   |    37.98    |
 
 ### Training
 
