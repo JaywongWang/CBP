@@ -29,9 +29,9 @@ sh download_glove.sh
 
 TACoS: [BaiduDrive](https://pan.baidu.com/s/1OfaQW9622iGor-qXDWbwLA), [GoogleDrive](https://drive.google.com/file/d/13JLnFhSzi8MPRzOG2Ao_q-J5-T5tewcg/view?usp=sharing)
 
-Charades-STA: [BaiduDrive](https://pan.baidu.com/s/1ODW4JIXfCCIbozPcaD_-UA)
+Charades-STA: [BaiduDrive](https://pan.baidu.com/s/1ODW4JIXfCCIbozPcaD_-UA), [GoogleDrive](https://drive.google.com/file/d/1Df2MUL0o0kpxD1IvCCtpazukt4fdMX0a/view?usp=sharing)
 
-ActivityNet-Captions: [BaiduDrive](https://pan.baidu.com/s/1W9S7_nHf3nzDm1TDjm0YBA)
+ActivityNet-Captions: [BaiduDrive](https://pan.baidu.com/s/1W9S7_nHf3nzDm1TDjm0YBA), [GoogleDrive](https://drive.google.com/file/d/1pkIDiKzzLJwgzkDFumIeOrssLxJhSmox/view?usp=sharing)
 
 Put the feature hdf5 file in the corresponding directory `./datasets/{DATASET}/features/`
 
@@ -41,9 +41,7 @@ We decode TACoS/Charades videos using `fps=16` and extract C3D (fc6) features fo
 
 Download and put the checkpoints in corresponding `./checkpoints/{DATASET}/` .
 
-[BaiduDrive](https://pan.baidu.com/s/1Xr9u5WNq_7KlUHiwC9Lbyw)
-
-[GoogleDrive](https://drive.google.com/drive/folders/1TBXGyg1slYbX1JaBD3nfG1zkXzUZlWCH?usp=sharing)
+[BaiduDrive](https://pan.baidu.com/s/1Xr9u5WNq_7KlUHiwC9Lbyw), [GoogleDrive](https://drive.google.com/drive/folders/1TBXGyg1slYbX1JaBD3nfG1zkXzUZlWCH?usp=sharing)
 
 
 4. Data Preprocessing (Optional)
