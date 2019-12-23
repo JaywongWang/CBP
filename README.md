@@ -35,7 +35,7 @@ ActivityNet-Captions: [BaiduDrive](https://pan.baidu.com/s/1W9S7_nHf3nzDm1TDjm0Y
 
 Put the feature hdf5 file in the corresponding directory `./datasets/{DATASET}/features/`
 
-We decode TACoS/Charades videos using `fps=16` and extract C3D (fc6) features for each non-overlap 16-frame snippet. Therefore, each feature corresponds to 1-second snippet. For ActivityNet, each feature corresponds to 2-second snippet.
+We decode TACoS/Charades videos using `fps=16` and extract C3D (fc6) features for each non-overlap 16-frame snippet. Therefore, each feature corresponds to 1-second snippet. For ActivityNet, each feature corresponds to 2-second snippet. To extract C3D fc6 features, I mainly refer to this [code](https://github.com/yyuanad/Pytorch_C3D_Feature_Extractor).
 
 3. Download trained models.
 
