@@ -27,7 +27,7 @@ class DataProvision:
         self._sizes = {}  # size of train/val/test split data
         self._grounding = {}  # grounding data
 
-        self._data_path = './datasets/{}/data/'.format(self._options['dataset'])
+        self._data_path = './datasets/{}/data/save/'.format(self._options['dataset'])
 
         self._anchors = json.load(open(os.path.join(self._data_path, 'anchors.json')))  # anchor data
         self._num_anchors = len(self._anchors)  # number of anchors
