@@ -14,8 +14,8 @@ from util import evaluation_metric_util, format_loss_output, mkdirs
 import sys
 
 # set default encoding
-reload(sys)
-sys.setdefaultencoding('utf-8')
+#reload(sys)
+#sys.setdefaultencoding('utf-8')
 
 
 def evaluation_metric(options, data_provision, sess, inputs, outputs, interactor_inputs=None,

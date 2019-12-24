@@ -12,10 +12,10 @@ import tensorflow as tf
 import sys
 
 # set default encoding
-reload(sys)
-sys.setdefaultencoding('utf-8')
+#reload(sys)
+#sys.setdefaultencoding('utf-8')
 
-np.set_printoptions(threshold='nan')
+#np.set_printoptions(threshold='nan')
 
 
 def test(options):

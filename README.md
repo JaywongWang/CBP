@@ -13,7 +13,6 @@ Official Tensorflow Implementation of the AAAI-2020 paper [Temporally Grounding 
     }
 
 ### Requirements
-python 2.7
 ``` bash
 pip install -r requirements.txt
 ```
