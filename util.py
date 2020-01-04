@@ -192,8 +192,8 @@ def evaluation_metric_util(options, data_provision, sess, inputs, outputs, inter
                     end_time = options['feature_to_second'] * end_feat
                     start_time = options['feature_to_second'] * start_feat
 
-                    #if start_time < 0. - options['feature_to_second']*gap:
-                        #continue
+                    if start_time < 0. - options['feature_to_second']*gap:
+                        continue
 
                     start_time = max(0., start_time)
 

@@ -7,7 +7,7 @@ import argparse
 import numpy as np
 from opt import default_options
 from data_provider import DataProvision
-from util import nms_detections, get_recall_at_k
+from util import nms_detections, get_recall_at_k, mkdirs
 import tensorflow as tf
 import sys
 
@@ -105,9 +105,7 @@ def test(options):
 
     out_json_file = 'results/random_anchor_predict_proposals_%s_nms_%.2f.json'%(split, options['nms_threshold'])
 
-    rootfolder = os.path.dirname(out_json_file)
-    if not os.path.exists(rootfolder):
-        os.makedirs(rootfolder)
+    mkdirs(os.path.dirname(out_json_file))
 
     print('Writing result json file ...')
     with open(out_json_file, 'w') as fid:

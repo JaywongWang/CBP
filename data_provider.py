@@ -8,8 +8,7 @@ import json
 from util import get_iou, get_intersection
 import time
 
-# when printing numpy array, show all
-np.set_printoptions(threshold=np.inf)
+#np.set_printoptions(threshold=np.inf)
 
 FEATURE_FILE_MAPPING = {
     'tacos': 'tacos_c3d_fc6_nonoverlap.hdf5',
@@ -82,7 +81,7 @@ class DataProvision:
 
         print('Loading Glove pretrained word embedding ...')
         glove_vocab_file = os.path.join(self._data_path, '{}_glove_embeds.npy'.format(self._options['dataset']))
-        self._glove = np.load(open(glove_vocab_file))
+        self._glove = np.load(open(glove_vocab_file, 'rb'))
 
         print('Done loading.')
 
